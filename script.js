@@ -44,7 +44,7 @@ function startTimer() {
       let s = physSeconds % 60;
       updateTimerDisplay(h, m, s);
     }
-  }, 1);
+  }, 1000);
 }
 
 function stopTimer() {
