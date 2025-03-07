@@ -20,9 +20,6 @@ function startTimer() {
     if (mode === "stopwatch") {
       seconds++;
 
-      document.getElementById("status").innerText = "Focus"
-      document.getElementById("status").style.backgroundColor = "#11f5bc7f";
-
       if (seconds >= 60) {
         minutes++;
         seconds = 0;
