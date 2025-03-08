@@ -70,7 +70,7 @@ function preparePhysicalActivityTimer() {
   document.getElementById("status").style.backgroundColor = "red";
 
   let elapsedMinutes = hours * 60 + minutes + (seconds >= 43 ? 1 : 0);
-  let physicalActivityDuration = Math.min(elapsedMinutes * 0.4, 36);
+  let physicalActivityDuration = Math.min(elapsedMinutes * 0.3, 36);
   physSeconds = Math.floor(physicalActivityDuration * 60);
 
   let h = Math.floor(physSeconds / 3600);
