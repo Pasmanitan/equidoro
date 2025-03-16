@@ -5,12 +5,12 @@
   "display": "standalone",
   "icons": [
     {
-      "src": "../assets/equidoro_logo.ico",
+      "src": "../equidoro_logo.ico",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "../assets/equidoro_logo.ico",
+      "src": "./equidoro_logo.ico",
       "sizes": "512x512",
       "type": "image/png"
     }
